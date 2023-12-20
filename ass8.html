@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:blue;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        h4,h2{
+            color:blueviolet;
+        }
+        
+        #head{
+            color:green;
+            font-family:cursive;     
+        }
+        #para{
+            color:chocolate;
+            font-size: 18px;
+        }
+        #para1{
+            color:darkgreen;
+            font-size:15px ;
+        }
+        .text{
+            color:darkred;
+        }
+        .text2{
+            color:darkblue;
+        }
+        .border-example {
+            border: 2px solid #333; 
+            padding: 10px; 
+        }
+    </style>
+</head>
+<body bgcolor="#D2D1CD">
+    <div class="border-example">
+    <h1 align="center"><u>Analyzing and Applying CSS Selectors</u></h1>
+    <h4 align="right">Date: 20-12-2023</h4>
+    <hr>
+    <h1 id="head" align="center"><u>Cascading Style Sheets</u></h1>
+   <p id="para">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).<br>Cascading Style Sheets (CSS) is used to format the layout of a webpage.<br>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate.<br>The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. <br>This cascading priority scheme is predictable In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL. CSS is also used in the GTK widget toolkit.</p>
+   <h2><u>Types Of CSS : </u></h2>
+   <p id="para1">1.Inline Style Sheets<br>2.Internal Style Sheets<br>3.External Style Sheets</p>
+   <h3 class="text"><u>1.Inline Style Sheets : </u></h3>
+   <p class="text2" >An inline CSS is used to apply a unique style to a single HTML element.<br>
+    An inline CSS uses the style attribute of an HTML element.<br>
+    To use inline CSS, add a “style” attribute to an HTML element and define CSS properties<br> and values within double quotes, Inline CSS has the highest priority out of external, internal CSS, and inline CSS
+    </p>
+    <h3 class="text"><u>2.Internal Style Sheets : </u></h3>
+    <p class="text2">An internal CSS is used to define a style for a single HTML page.<br>
+
+        An internal CSS is defined in the head section of an HTML page, within a style element.<br>
+        
+        The following example sets the text color of ALL the h1 elements (on that page) to blue, and the text color of ALL the p <br>elements to red. In addition, the page will be displayed with a "powderblue" background color.<br>The Internal CSS stylesheet is a set of styles created as part of an HTML document.<br> Internal CSS is a method for defining CSS styles within an HTML document’s style element,<br> it is used to provide a unique style for a single HTML document in the head section.<br> This means that the CSS is embedded within the style tag inside the  head section of the HTML file.</p>
+    <h3 class="text"><u>3.External Style Sheets : </u></h3>
+    <p class="text2">An external style sheet is used to define the style for many HTML pages.<br>
+
+        To use an external style sheet, add a link to it in the head section of each HTML page.<br>
+        External CSS is used to style multiple HTML pages with a single style sheet. <br>External CSS contains a separate CSS file with a .css extension.<br> The CSS file contains style properties added on selectors (For example class, id, heading, … etc.).</p>
+    </div>
+</body>
+</html>
